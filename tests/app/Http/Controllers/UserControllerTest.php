@@ -23,7 +23,7 @@ class UserControllerTest extends TestCase
 
     public function testGetAllUsersShouldReturn200StatusCode()
     {
-        $this->get('/users')->seeStatusCode(400);
+        $this->get('/users')->seeStatusCode(201);
 
     }
 
